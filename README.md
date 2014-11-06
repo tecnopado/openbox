@@ -1,0 +1,4 @@
+openbox
+=======
+
+my-ob-config
