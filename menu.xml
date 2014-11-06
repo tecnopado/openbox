@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+
+<menu id="apps-accessories-menu" label="Accessori">
+  <item icon="/home/simone/.icons/Skull-Of-Anup/scalable/apps/kcalc.png" label="xcalc">
+    <action name="Execute">
+      <command>xcalc</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Screenshoot">
+    <action name="Execute">
+      <command>xfce4-screenshooter</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+<item icon="/usr/share/xfce4-notes-plugin/pixmaps/notes-menu.png" label="Note TomBoy">
+    <action name="Execute">
+      <command>tomboy</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+<item icon="/home/simone/.icons/smoothX-Xfce/apps/22/calendar.png" label="Synapse">
+    <action name="Execute">
+      <command>synapse</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/smoothX-Xfce/mimes/22/application-zip.png" label="file-roller">
+    <action name="Execute">
+      <command>file-roller</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+<item icon="/home/simone/.icons/smoothX-Violet/places/24/network-workgroup.png" label="Gestore di rete WICD">
+    <action name="Execute">
+      <command>wicd-gtk</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+<menu id="apps-editors-menu" label="Editors">
+  <item icon="/home/simone/.icons/smoothX-Xfce/apps/22/abiword.png" label="Mousepad">
+    <action name="Execute">
+      <command>mousepad</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>mousepad</wmclass>
+      </startupnotify>
+    </action>
+    </item>
+  <item icon="/home/simone/.icons/smoothX-Xfce/apps/22/gparted.png" label="Gparted">
+    <action name="Execute">
+      <command>gksu gparted</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>gparted</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/Skull-Of-Anup/sublime.png" label="Sublime Text">
+    <action name="Execute">
+      <command>subl3</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>Sublime-text</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+   <item icon="/usr/lib/kompozer/icons/mozicon16.xpm" label="Compozer">
+    <action name="Execute">
+      <command>kompozer</command>
+      <startupnotify>
+      <enabled>yes</enabled>enabled>
+      <wmclass>kompozer</wmclass>wmclass>
+    </startupnotify>
+  </action>
+</item>
+	<item icon="/usr/share/pixmaps/bluegriffon-icon.png" label="Bluegriffon">
+		<action name="Execute">
+			<command>bluegriffon</command>
+			<startupnotify>
+				<enabled>yes</enabled>
+				<wmclass>bluegriffon</wmclass>
+			</startupnotify>
+		</action>
+	</item>
+  <item label="leafpad">
+    <action name="Execute">
+      <command>leafpad</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/smoothX-Xfce/apps/22/accessories-text-editor.png" label="Kate">
+    <action name="Execute">
+      <command>kate</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/smoothX-Xfce/apps/22/office-main.png" label="Kwrite">
+    <action name="Execute">
+      <command>kwrite</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+
+<menu id="apps-term-menu" label="Terminali">
+  <item icon="/home/simone/.icons/Skull-Of-Anup/scalable/apps/gnome-xterm.png" label="Xfce Terminal" label="Xfce Terminal">
+    <action name="Execute">
+      <command>xfce4-terminal</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item icon="/usr/share/icons/nuvola/16x16/apps/utilities-terminal.png" label="Urvxt-unicode">
+    <action name="Execute">
+      <command>urxvt -depth 32 -bg rgba:3f00/3f00/3f00/dddd</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+<menu id="apps-net-menu" label="Internet">
+  <item icon="/home/simone/.icons/Skull-Of-Anup/scalable/apps/firefox04.png" label="Firefox">
+    <action name="Execute">
+      <command>firefox</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>Firefox</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/Skull-Of-Anup/scalable/apps/firefox04.png" label="firefox-34.0">
+  <action name="execute">
+  <command>/home/simone/djbdns-1.05/firefox/firefox</command>
+  <stastupnotify>
+  <enabled>yes</enabled>
+  <wmclass>firefox</wmclass>
+ </startupnotify>
+</action>
+</item>
+  <item icon="/home/simone/.icons/Skull-Of-Anup/scalable/apps/skype.png" label="Skype">
+    <action name="Execute">
+      <command>skype</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>skype</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/Skull-Of-Anup/scalable/apps/ktorrent.png" label="Qbittorrent">
+    <action name="Execute">
+      <command>qbittorrent</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/Skull-Of-Anup/scalable/apps/epiphany-browser.png" label="xtraceroute">
+    <action name="Execute">
+      <command>/usr/bin/xtraceroute</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/smoothX-Xfce/apps/22/pidgin.png" label="Pidgin Instant Messenger">
+    <action name="Execute">
+      <command>pidgin</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/smoothX-Violet/places/24/network-workgroup.png" label="Transmission">
+    <action name="Execute">
+      <command>transmission-gtk</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/smoothX-Xfce/apps/22/xchat-gnome.png" label="XChat">
+    <action name="Execute">
+      <command>xchat</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+<menu id="apps-graphics-menu" label="Grafica">
+  <item icon="/usr/share/gimp/2.0/images/gimp-logo.png" label="Gimp">
+    <action name="Execute">
+      <command>gimp</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/Skull-Of-Anup/scalable/apps/gwenview.png" label="Inkscape">
+    <action name="Execute">
+      <command>inkscape</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/Skull-Of-Anup/scalable/apps/gazpacho.png" label="ristretto">
+    <action name="Execute">
+      <command>ristretto</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/smoothX-Xfce/categories/24/applications-viewers.png" label="Okular">
+    <action name="Execute">
+      <command>okular</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+<item icon="/home/simone/.icons/smoothX-Xfce/tools/22/draw-freehand.png" label="Kolourpaint">
+    <action name="Execute">
+      <command>kolourpaint</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  </menu>
+<menu id="apps-office-menu" label="Ufficio">
+  <item icon="/home/simone/.icons/Skull-Of-Anup/scalable/apps/accessories-text-editor.png" label="LibreOffice Base">
+    <action name="Execute">
+      <command>soffice</command>
+    </action>
+  </item>
+<item icon="/home/simone/.icons/Skull-Of-Anup/scalable/apps/ooo-template.png" label="WPS Office writer">
+    <action name="Execute">
+      <command>wps</command>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/smoothX-Xfce/mimes/22/text-x-generic-template.png" label="OpenOffice Calc">
+    <action name="Execute">
+      <command>ooffice -calc</command>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/smoothX-Xfce/mimes/22/x-office-drawing-template.png" label="OpenOffice Draw">
+    <action name="Execute">
+      <command>ooffice -draw</command>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/smoothX-Xfce/mimes/22/x-office-presentation-template.png" label="OpenOffice Impress">
+    <action name="Execute">
+      <command>ooffice -impress</command>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/smoothX-Xfce/mimes/22/x-office-spreadsheet-template.png" label="OpenOffice Math">
+    <action name="Execute">
+      <command>ooffice -math</command>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/smoothX-Xfce/devices/22/gnome-dev-printer-network.png" label="OpenOffice Printer Administration">
+    <action name="Execute">
+      <command>ooffice-printeradmin</command>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/smoothX-Xfce/mimes/22/gnome-mime-application-x-scribus.png" label="OpenOffice Writer">
+    <action name="Execute">
+      <command>ooffice -writer</command>
+    </action>
+  </item>
+</menu>
+<menu id="apps-multimedia-menu" label="Multimediale">
+  <item icon="/home/simone/.icons/Skull-Of-Anup/scalable/apps/exaile03.png" label="VLC">
+    <action name="Execute">
+      <command>vlc</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/Skull-Of-Anup/scalable/apps/clementine.svg" label="Clementine">
+    <action name="Execute">
+      <command>clementine</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/Skull-Of-Anup/scalable/apps/k3b.png" label="K3b">
+    <action name="Execute">
+      <command>k3b</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/Skull-Of-Anup/scalable/apps/gnome-sound-properties.png" label="xfce4-mixer">
+    <action name="Execute">
+      <command>xfce4-mixer</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>kmix</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/smoothX-Xfce/categories/24/xfce-multimedia.png" label="Pavucontrol">
+    <action name="Execute">
+      <command>pavucontrol</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+<menu id="apps-fileman-menu" label="File Managers">
+  <item icon="/home/simone/.icons/Skull-Of-Anup/scalable/places/computer-1.png" label="Thunar">
+    <action name="Execute">
+      <command>Thunar</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/Skull-Of-Anup/scalable/places/folder1.png" label="KDE File Manager">
+    <action name="Execute">
+      <command>dolphin</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Rox">
+    <action name="Execute">
+      <command>rox</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>ROX-Filer</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Filelight">
+    <action name="filelight">
+      <command>filelight</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  </menu>
+<menu id="system-menu" label="Config Sistema">
+  <item icon="/home/simone/.icons/smoothX-Xfce/categories/24/plugins-utility.png" label="Openbox Configuration Manager">
+    <action name="Execute">
+      <command>obconf</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/smoothX-Xfce/actions/22/document-properties.png" label="xfce4-settings">
+    <action name="Execute">
+      <command>xfce4-settings-manager</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/smoothX-Xfce/mimes/22/gnome-mime-application-x-gnome-theme-package.png" label="lxappearence">
+    <action name="Execute">
+      <command>lxappearance</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/smoothX-Xfce/categories/symbolic/preferences-system-symbolic.svg" label="Dconf Editor">
+    <action name="Execute">
+      <command>dconf-editor</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item icon="/home/simone/.icons/smoothX-Xfce/categories/symbolic/applications-utilities-symbolic.svg" label="KsysGuard">
+    <action name="Execute">
+      <command>ksysguard</command>
+      <startupnotify>
+        <enabled>no</enabled>
+        <icon>cups</icon>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item icon="/home/simone/.icons/smoothX-Xfce/categories/24/xfce4-settings.png" label="Riconfigura Openbox">
+    <action name="Reconfigure" />
+  </item>
+  </menu>
+<menu id="root-menu" label="Openbox 3">
+  <separator label="Programmi" />
+  <menu icon="/home/simone/.icons/smoothX-Xfce/categories/22/applications-utilities.png" id="apps-accessories-menu"/>
+  <menu icon="/home/simone/.icons/smoothX-Xfce/apps/22/gtk-theme-config.png" id="apps-editors-menu"/>
+  <menu icon="/home/simone/.icons/smoothX-Xfce/categories/22/applications-graphics.png" id="apps-graphics-menu"/>
+  <menu icon="/home/simone/.icons/smoothX-Xfce/categories/22/stock_internet.png" id="apps-net-menu"/>
+  <menu icon="//home/simone/.icons/smoothX-Xfce/mimes/22/gnome-mime-application-pdf.png" id="apps-office-menu"/>
+  <menu icon="//home/simone/.icons/smoothX-Xfce/mimes/22/application-ogg.png" id="apps-multimedia-menu"/>
+  <menu icon="/home/simone/.icons/smoothX-Xfce/apps/22/bash.png" id="apps-term-menu"/>
+  <menu icon="/home/simone/.icons/smoothX-Blue-N/places/22/folder_home.png" id="apps-fileman-menu"/>
+  <separator label="Config" />
+  <menu icon="/home/simone/.icons/archlogo.png" id="system-menu"/>
+  <separator />
+  <item icon="/home/simone/.icons/smoothX-Xfce/actions/22/undo.png" label="Esci">
+    <action name="Exit">
+      <prompt>yes</prompt>
+    </action>
+  </item>
+  <separator />
+  <item icon="/home/simone/.icons/smoothX-Xfce/actions/22/system-reboot.png" label="Riavvia">
+    <action name="Execute">
+        <prompt>
+            Davvero vuoi riavviarmi??
+        </prompt>
+        <execute>
+            reboot
+        </execute>
+    </action>
+</item>
+<separator />
+
+<item icon="/home/simone/.icons/Skull-Of-Anup/scalable/apps/gnome-shutdown.png" label="SPEGNI">
+    <action name="Execute">
+        <prompt>
+            Ma sei sicuro di spegnere??
+        </prompt>
+        <execute>
+            poweroff
+        </execute>
+    </action>
+</item>
+
+  </menu>
+</openbox_menu>
